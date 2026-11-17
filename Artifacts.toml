@@ -2,7 +2,7 @@
 arch = "x86_64"
 cuda = "12.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "f095070f049d78d8a4610469af4f8c1db46d9476"
+git-tree-sha1 = "488a8336c6230ae42da75b877e74a047b908c5b4"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -10,13 +10,43 @@ mpi = "mpiabi"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "20ae58501126af32d151f7ed75d98abfbce644bba0ca0ff278cca6ae2b55d256"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz"
+    sha256 = "a65a3dce4e7315a68228de5aa1e458ed6ff82aef530f6f9162396350f27ac866"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "c25693bd58704d337a7577c60c267b0605c60fc0"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "a2c1ed9967de70bb87e1845e0b7cb79112ab13161f8f8e7fd34774f7710a17d4"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d601d2caf981f62f045195bf25716bedf4b7e8a1"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "fe754fd5dfbb20da7a1a4b6235894fa463e966d5c6c5cbd8501f8c2f8e8e89e8"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpiabi.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "12.8"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "402684644a67d7e17b3656254d3db4b148df7f77"
+git-tree-sha1 = "03c962fdc1602a824b22ced3f7c6672df3b7db80"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -24,13 +54,43 @@ mpi = "mpiabi"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "b3e880c20e9eff6f26e3a1cf2df657527dc1ebe5b931e29c7c000cd23c986986"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz"
+    sha256 = "fda023f5ebe86532edbbf4c51ed6352ff21c84a4e1e4442100dffe327ef283e5"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d5581a96a830633b5849b70883d046ad4aac0d18"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "69dbbcb750b8b04cf35f2fa9b0e287dace437633d4ae92b7a22da921623daba6"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "274cdccfab160c5274c1e7c59e60deb105eca461"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "8c358054af2ac05af5d4d76d86dd57b7d89730a53072ef4f74759142681268f9"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpiabi.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "12.9"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "a9d64c2a3664abcd8f3bf62ec0f333d1f5471f20"
+git-tree-sha1 = "78695d5a3d61cdf5a359a8168a78e75daa1570a1"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -38,13 +98,43 @@ mpi = "mpiabi"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "5457dbc8aa29ec52ec21e0ed9ef5bdf9f46f6ca5eac02cbc9815052b4fe8c26c"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz"
+    sha256 = "fd5d68239c98779203916e9a880c214dd35965d4256cc183727727ed4fe2a627"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "13542c6c6056a37620d5f7dfcaaef04077f2314b"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "70f5fe15471487ce68b42f4554afae4a56dc1b682888a1a3f23dae5d30164be6"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ffa2c6470c589c0cf39c466ae57173e73e996598"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "de22e7903130d0f4eca9053aa055655ce158259dbef75450e5a10b12769d9137"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpiabi.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "13.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "6fdbc7ecd07ae594b32bf9751e3f6b861e04a3b8"
+git-tree-sha1 = "67cbe9bce000a1ff506f7a8eee67cf095a373b14"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -52,13 +142,27 @@ mpi = "mpiabi"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "d1114cfcd89154c78f22e3f105b0f05ec39b7f5273ac296a23b3216cb122705b"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz"
+    sha256 = "cecbffa304530b8baa6071edcdc059aadfff86a5b4b37ceeede6e2745c42975b"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "13.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "5c2edc9179ca5c13338f9cc7c9657488370f28e7"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpiabi"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "9c778a21f6ff7fdd42f7a1b3000186d81a5fc31eb504a72b367e0f994b5fd661"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpiabi.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "12.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "cc9aeedb9a616fbc3c9512870df28e4f3d61dc7a"
+git-tree-sha1 = "7240dcb52e13f319d539fb14f6101ba5164058c3"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -66,13 +170,43 @@ mpi = "mpich"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "a80cf5bc91886cdc70d449ee10e389b71a8c69d4913b62d6a111d0b217d6ea6f"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz"
+    sha256 = "10ad45955e86858ca60945dd853bc6ebac9b26fcfb97c19de3c6c71d4442a437"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.0-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "0fad240a25ee55a50f07493314cf47215ae8fdf7"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "b7d55c8c16678d15c1b19633101e8e665b1491f5f589d7b825dc366b14da96e1"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.0-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.0"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "d854e10667b73e2d1c4ce23703e3cf1a2f16691e"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "46b569dd4fc524ebe74f9fc43952def96f884f60f85613289855d3678814354e"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.0-mpi+mpich.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "12.8"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "c046b689b9b91951e9c723f8c3e727ca037e7ff9"
+git-tree-sha1 = "5a00687d4d41d037f5f3e7f512e4cba1b77877fd"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -80,13 +214,43 @@ mpi = "mpich"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "41fc53c15e0160892e2f02b702deb48e073b8fb42c809eabf14767da82b6c47a"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz"
+    sha256 = "187960a5f61c7db3e1fb5b35c4cd6d39f5fc53ad25fa3a0a37d79c8fdc73cded"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.8-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "ff9314e0a85bb54487cafe1fb9ac56bb4f9f7ab9"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "caffa8025118ce32218d32b4e163992259afb5212132600ca63d5ead81f1045a"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.8-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.8"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "104b33043cc0692602c7a540b15c3ae627ba70fc"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "5c6a191a25389658a7f527097ee8a9f4afd124987e3cfb10574785dbe5ff07df"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.8-mpi+mpich.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "12.9"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "0998ae69f8619f3f410442f7922c26c22031bc3d"
+git-tree-sha1 = "9a14be3dd040682227273d497bff38e06096034e"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -94,13 +258,43 @@ mpi = "mpich"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "1d7b741d42a633e1bd55e9bab01cc77532ae1acf07c78a240bae6e5cb4df5ee1"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz"
+    sha256 = "490904eae902d71ce6cef2e8e1bb5c53272401dccf69316ee8491450c315cd73"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+12.9-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "jetson"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "39b5f812d6324286b85301db951693aa9150b813"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "5dc728859b51f3f5929a739b315f8d50a4c2749e020306caca2e94620a562975"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+jetson-cuda+12.9-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "12.9"
+cuda_platform = "sbsa"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "87c146ea2e22aee6259dea5f605217098339648f"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "24e78883ce4107858007b1e321eef67ee66f8b9288e844cee1467be728260eba"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda_platform+sbsa-cuda+12.9-mpi+mpich.tar.gz"
 [[PETSc_CUDA]]
 arch = "x86_64"
 cuda = "13.0"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "339982f08ea20421a7d6c93f36b4e107534a961b"
+git-tree-sha1 = "1e978e01416eae5fea95285f17ed0a1ca69a89c8"
 lazy = true
 libc = "glibc"
 libgfortran_version = "5.0.0"
@@ -108,5 +302,19 @@ mpi = "mpich"
 os = "linux"
 
     [[PETSc_CUDA.download]]
-    sha256 = "71584b27422c08cf1b6a471b2a4090ab85a16f28e1e150d44d85912db5b635d9"
-    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.6+0/PETSc_CUDA.v3.25.6.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"
+    sha256 = "5c7b4567605c6ece3098704346d91a5a9ac31bb1b619934ddca9513e4c512331"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.x86_64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"
+[[PETSc_CUDA]]
+arch = "aarch64"
+cuda = "13.0"
+cxxstring_abi = "cxx11"
+git-tree-sha1 = "a6387554bafb57a5128b11443ebfc8210237a568"
+lazy = true
+libc = "glibc"
+libgfortran_version = "5.0.0"
+mpi = "mpich"
+os = "linux"
+
+    [[PETSc_CUDA.download]]
+    sha256 = "474ee75cd422398e4399870aace8ef0b0e531cc7ab9008e14fe2904419dfde55"
+    url = "https://github.com/JuliaBinaryWrappers/PETSc_CUDA_jll.jl/releases/download/PETSc_CUDA-v3.25.7+0/PETSc_CUDA.v3.25.7.aarch64-linux-gnu-libgfortran5-cxx11-cuda+13.0-mpi+mpich.tar.gz"
