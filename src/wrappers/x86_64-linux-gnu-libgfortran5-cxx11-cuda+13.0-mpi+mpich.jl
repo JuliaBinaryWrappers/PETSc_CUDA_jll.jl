@@ -9,6 +9,7 @@ using HYPRE64_jll
 using HYPRE_jll
 using SuperLU_DIST_CUDA_jll
 using HDF5_jll
+using P4est_jll
 using Zlib_jll
 using TetGen_jll
 using Triangle_jll
@@ -25,7 +26,7 @@ JLLWrappers.@declare_library_product(libpetsc, "libpetsc_double_real_Int64.so.3.
 JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int64, "libpetsc_double_real_Int64.so.3.25")
 JLLWrappers.@declare_library_product(libpetsc_Float64_Real_Int32, "libpetsc_double_real_Int32.so.3.25")
 function __init__()
-    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MUMPS_jll, OpenBLAS32_jll, HYPRE64_jll, HYPRE_jll, SuperLU_DIST_CUDA_jll, HDF5_jll, Zlib_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, NVTX_jll, MPICH_jll, MPIPreferences, CUDA_Runtime_jll)
+    JLLWrappers.@generate_init_header(CompilerSupportLibraries_jll, libblastrampoline_jll, MUMPS_jll, OpenBLAS32_jll, HYPRE64_jll, HYPRE_jll, SuperLU_DIST_CUDA_jll, HDF5_jll, P4est_jll, Zlib_jll, TetGen_jll, Triangle_jll, SuiteSparse_jll, NVTX_jll, MPICH_jll, MPIPreferences, CUDA_Runtime_jll)
     JLLWrappers.@init_executable_product(
         ex4,
         "bin/ex4",
