@@ -1,4 +1,4 @@
-version = "3.25.8+0"
+version = "3.25.8+1"
 name = "PETSc_CUDA_jll"
 uuid = "d68ba6a2-680a-542a-8c53-8e2da8b9c186"
 
